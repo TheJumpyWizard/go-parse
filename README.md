@@ -11,14 +11,14 @@ If you don't have Go installed, you can download it from the official Go website
 To get started with the SQL parser, clone the repository and navigate to the project directory:
 
 ```
-$ git clone https://github.com/your-username/sql-parser-go.git
-$ cd sql-parser-go
+$ git clone https://github.com/your-username/go-parse.git
+$ cd go-parse
 ```
 Next, you can build and run the program using the following commands:
 
 ```
-$ go build -o sql-parser cmd/main.go
-$ ./sql-parser
+$ go build -o go-parse cmd/main.go
+$ ./go-parse
 ```
 This will start the SQL parser in interactive mode, where you can enter SQL statements and see the parsed result. To exit the program, type exit.
 
