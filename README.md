@@ -11,14 +11,12 @@ If you don't have Go installed, you can download it from the official Go website
 To get started with the SQL parser, clone the repository and navigate to the project directory:
 
 ```
-shell
 $ git clone https://github.com/your-username/sql-parser-go.git
 $ cd sql-parser-go
 ```
 Next, you can build and run the program using the following commands:
 
 ```
-shell
 $ go build -o sql-parser cmd/main.go
 $ ./sql-parser
 ```
@@ -36,3 +34,6 @@ The SQL parser supports the following SQL statements:
     * The INSERT statement is used to insert new data into a database table.
 
 ``` INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...), (value1, value2, ...), ... ```
+
+### Contributing
+If you find a bug, have a suggestion or an improvement, or just want to say hi, please open an issue or a pull request. All contributions are welcome!
